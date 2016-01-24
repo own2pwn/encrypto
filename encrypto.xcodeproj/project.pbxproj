@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0AC8B61C53EC0400D2C3C9 /* AddBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0AC8B51C53EC0400D2C3C9 /* AddBtn.m */; };
+		AF23CC111C5392F7001BC72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF23CC101C5392F7001BC72B /* AppDelegate.m */; };
+		AF23CC141C5392F7001BC72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF23CC131C5392F7001BC72B /* main.m */; };
+		AF23CC171C5392F7001BC72B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF23CC161C5392F7001BC72B /* ViewController.m */; };
+		AF23CC191C5392F7001BC72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF23CC181C5392F7001BC72B /* Assets.xcassets */; };
+		AF23CC1C1C5392F7001BC72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF23CC1A1C5392F7001BC72B /* Main.storyboard */; };
+		AF23CC261C53984D001BC72B /* windowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF23CC251C53984D001BC72B /* windowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0AC8B41C53EC0400D2C3C9 /* AddBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBtn.h; sourceTree = "<group>"; };
+		AF0AC8B51C53EC0400D2C3C9 /* AddBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBtn.m; sourceTree = "<group>"; };
+		AF23CC0C1C5392F7001BC72B /* encrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF23CC0F1C5392F7001BC72B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF23CC101C5392F7001BC72B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF23CC131C5392F7001BC72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF23CC151C5392F7001BC72B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF23CC161C5392F7001BC72B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF23CC181C5392F7001BC72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF23CC1B1C5392F7001BC72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF23CC1D1C5392F7001BC72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF23CC241C53984D001BC72B /* windowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = windowController.h; path = ../windowController.h; sourceTree = "<group>"; };
+		AF23CC251C53984D001BC72B /* windowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = windowController.m; path = ../windowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF23CC091C5392F7001BC72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF23CC031C5392F7001BC72B = {
+			isa = PBXGroup;
+			children = (
+				AF23CC0E1C5392F7001BC72B /* encrypto */,
+				AF23CC0D1C5392F7001BC72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF23CC0D1C5392F7001BC72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CC0C1C5392F7001BC72B /* encrypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF23CC0E1C5392F7001BC72B /* encrypto */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CC241C53984D001BC72B /* windowController.h */,
+				AF23CC251C53984D001BC72B /* windowController.m */,
+				AF23CC0F1C5392F7001BC72B /* AppDelegate.h */,
+				AF23CC101C5392F7001BC72B /* AppDelegate.m */,
+				AF23CC151C5392F7001BC72B /* ViewController.h */,
+				AF23CC161C5392F7001BC72B /* ViewController.m */,
+				AF23CC181C5392F7001BC72B /* Assets.xcassets */,
+				AF23CC1A1C5392F7001BC72B /* Main.storyboard */,
+				AF0AC8B41C53EC0400D2C3C9 /* AddBtn.h */,
+				AF0AC8B51C53EC0400D2C3C9 /* AddBtn.m */,
+				AF23CC1D1C5392F7001BC72B /* Info.plist */,
+				AF23CC121C5392F7001BC72B /* Supporting Files */,
+			);
+			path = encrypto;
+			sourceTree = "<group>";
+		};
+		AF23CC121C5392F7001BC72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF23CC131C5392F7001BC72B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF23CC0B1C5392F7001BC72B /* encrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23CC201C5392F7001BC72B /* Build configuration list for PBXNativeTarget "encrypto" */;
+			buildPhases = (
+				AF23CC081C5392F7001BC72B /* Sources */,
+				AF23CC091C5392F7001BC72B /* Frameworks */,
+				AF23CC0A1C5392F7001BC72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encrypto;
+			productName = encrypto;
+			productReference = AF23CC0C1C5392F7001BC72B /* encrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF23CC041C5392F7001BC72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = master;
+				TargetAttributes = {
+					AF23CC0B1C5392F7001BC72B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AF23CC071C5392F7001BC72B /* Build configuration list for PBXProject "encrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF23CC031C5392F7001BC72B;
+			productRefGroup = AF23CC0D1C5392F7001BC72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF23CC0B1C5392F7001BC72B /* encrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF23CC0A1C5392F7001BC72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CC191C5392F7001BC72B /* Assets.xcassets in Resources */,
+				AF23CC1C1C5392F7001BC72B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF23CC081C5392F7001BC72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF23CC171C5392F7001BC72B /* ViewController.m in Sources */,
+				AF23CC261C53984D001BC72B /* windowController.m in Sources */,
+				AF0AC8B61C53EC0400D2C3C9 /* AddBtn.m in Sources */,
+				AF23CC141C5392F7001BC72B /* main.m in Sources */,
+				AF23CC111C5392F7001BC72B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF23CC1A1C5392F7001BC72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF23CC1B1C5392F7001BC72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF23CC1E1C5392F7001BC72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF23CC1F1C5392F7001BC72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF23CC211C5392F7001BC72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = encrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.william.encrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF23CC221C5392F7001BC72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = encrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.william.encrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF23CC071C5392F7001BC72B /* Build configuration list for PBXProject "encrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CC1E1C5392F7001BC72B /* Debug */,
+				AF23CC1F1C5392F7001BC72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23CC201C5392F7001BC72B /* Build configuration list for PBXNativeTarget "encrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF23CC211C5392F7001BC72B /* Debug */,
+				AF23CC221C5392F7001BC72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF23CC041C5392F7001BC72B /* Project object */;
+}
